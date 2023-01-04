@@ -88,7 +88,7 @@ $ git checkout -b minha-alteracao
 $ git add .
 
 # Criando commit e a mensagem
-$ git commit -m "Corrigindo...."
+$ git commit -m "descrição da correção...."
 
 # Enviando alterações para o brach
 $ git push origin minha-alteracao
