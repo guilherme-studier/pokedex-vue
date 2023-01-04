@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Pokedex logo" src=".assets/logo.svg" width="400px" />
+  <img alt="Pokedex logo" src="assets/logo.svg" width="400px" />
 </p>
 
 <p align="center" fontSize="60px">
@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img alt="Layout da aplicação" width="100%" src="./.assets/print.svg" />
+  <img alt="Layout da aplicação" width="100%" src="assets/print.svg" />
 </p>
 
 ## 💻 Projeto
@@ -40,6 +40,8 @@ Desenvolver uma plataforma web para listagem e visualização de pokémons, para
 - Adicionar seção para favoritar seus pokémons
 
 - Criar seção na página de detalhes com a altura, peso e fraquezas do pokémon
+
+- Criar testes aos componentes
 
 - Adicionar Typescript
 
