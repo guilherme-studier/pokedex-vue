@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img alt="Layout da aplicação" width="100%" src="src/assets/print.svg" />
+  <img alt="Layout da aplicação" width="100%" src="src/assets/print.png" />
 </p>
 
 ## 💻 Projeto
