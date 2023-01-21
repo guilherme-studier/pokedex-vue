@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // const URL = 'https://pokeapi.co/api/v2';
 
-const getPokemonList = async (limit = 6) =>{
+const getPokemonList = async (limit = 9) =>{
     const resp = await axios.get(`https://pokeapi.co/api/v2/pokemon/?limit=${limit}`) //passar esse ? o q é?
     return resp.data
 }

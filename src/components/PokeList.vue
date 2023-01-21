@@ -25,7 +25,7 @@
         data() {
             return {
                 pokemons: '',
-                limit: 6,
+                limit: 9,
                 url: '',
             };
         },
@@ -37,7 +37,7 @@
                 this.$router.push({name: "pokemon", params:{name}})
             },
             triggerSeeMorePokemons() {
-                this.limit = this.limit + 6;
+                this.limit = this.limit + 9;
                 return this.fetchPokemon(this.limit);
             },
             fetchPokemon(limit) {
@@ -59,17 +59,18 @@
     width: 100%;
     margin: 0px auto;
     display: flex;
-    gap: 60px;
     flex-wrap: wrap;
 }
 
 .see-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     width: 100%;
     height: 3rem;
     margin-top: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 .see-more button {

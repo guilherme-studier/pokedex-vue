@@ -21,9 +21,7 @@
     },
     methods: {
       findPokemon(pokemon) {
-        console.log(pokemon);
         getPokemon(pokemon).then(data => {
-            console.log(data);
             return this.pokeName = data.name;
         });
       },

@@ -55,12 +55,14 @@ export default {
 <style scoped>
 .pokemon {
   display: flex;
+	padding: 0.75rem;
+  margin: 1rem;
 	border-radius: 20px;
-	box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
-	padding: 10px;
 	text-align: center;
-  width: 29rem;
+  align-items: center;
   cursor: pointer;
+  flex: 1 1 300px;
+	box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
 }
 
 .pokemon .pokemon-info {
@@ -79,16 +81,17 @@ export default {
 }
 
 .pokemon .pokemon-info h1 {
-  font-size: 2rem;
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-family: 'Roboto Bold', sans-serif;
+  text-transform: capitalize;
   font-weight: bold;
   color: #fff;
 }
 
 .pokemon .pokemon-info-types .pokemon-info-type span {
-  font-size: 1.2rem;
   padding: 0.3rem;
+  text-transform: capitalize;
+  font-size: 1rem;
   border-radius: 5px;
   color: white;
 }
@@ -96,15 +99,15 @@ export default {
 
 .pokemon .img-container {
 	background-color: rgba(255, 255, 255, 0.6);
+	text-align: center;
 	border-radius: 50%;
 	width: 120px;
 	height: 120px;
-	text-align: center;
 }
 
 .pokemon .img-container img {
 	margin-top: 20px;
-	max-width: 90%;
+	width: 90%;
 
   transition: 0.2s
 }

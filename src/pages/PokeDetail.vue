@@ -68,7 +68,6 @@ export default {
   methods: {
     fetchPokemon(pokemon) {
       getPokemon(pokemon).then(data => {
-        console.log(data);
         this.pokemon = data;
         this.name = this.pokemon.name;
         this.image = this.pokemon.sprites.other['official-artwork'].front_default;
