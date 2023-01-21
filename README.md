@@ -3,7 +3,7 @@
 </p>
 
 <p align="center" fontSize="60px">
-  Pokédex com Vue
+  Pokédex com Vue js
 </p>
 
 <p align="center">
